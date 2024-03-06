@@ -1,0 +1,717 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+.header{ 
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/shop\ page.png);
+   background-size: 100% 100vh;
+}
+.header h1{
+    position: relative;
+  font-size: 40px;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  top: 50px;
+  color: white;
+}
+
+.logo img{
+    position: relative;
+    height: 150px;
+    width: 200px;
+    bottom:770px;  
+    right: 20px;
+}
+.nav a{
+    position: relative;
+    left: 1230px;
+    bottom:859px;  
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.abt{
+    font-family: "Poppins", sans-serif;
+   background-color:#727070;
+      position: absolute;
+     
+     display: flex;
+      margin-top: 80px;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 30px;
+   
+      width: 800px;
+      height: 500px;
+  }
+  
+  .abt h2{
+    position: relative;
+      text-align: center;
+      padding: 10px;
+      top: -30px;
+      font-size: 30px;
+  }
+  .abt button{
+      width: 200px;
+      height: 70px;
+      border-radius: 50px;
+      background-color:#ffff ;
+      color:rgb(216, 48, 48);
+      margin-left: 300px;
+      margin-top: 20px;
+      border: 3px solid black;
+      font-size: 18px;
+      
+  }
+  .abt button a{
+    color:black;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .abt li{
+   position: relative;
+   padding: 10px;
+    top: -20px;
+      font-size: 20px;
+      left: 50px;
+  }
+.abt-img img{
+    position: absolute;
+    left: 800px;
+    top: -0px;
+    height: 500px;
+    width: 720px;
+}
+.abt ul{
+   list-style-type: none;
+}
+.ser h3{
+    position: absolute;
+    color: white;
+    left: 620px;
+    top: 20px;
+   font-size: 35px;
+}
+.ser{
+    position: relative;
+    background-color:black;
+    top: 700px;
+    height: 600px;
+    width: 100%;
+}
+.ser hr{
+    position: relative;
+    top: 10px;
+    width: 80px;
+   left: 120px;
+   height: 0px;
+}
+.ser h4{
+    position: relative;
+    top: 100px;
+    color: rgb(105, 98, 98);
+    text-align: center;
+    font-size: 20px;  
+}
+.one img{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+.one p{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 335px;
+    font-size: 30px;
+    
+}
+.one:hover{
+    position: absolute;
+    height: 50vh;
+    width: 30%;
+}
+.two img{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+.two p{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 760px;
+    font-size: 30px;
+}
+.two:hover{
+    position: absolute;
+    height: 50vh;
+    width: 30%;
+}
+.three img{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    position: absolute;
+    top: 250px;
+    left: 1100px;
+}
+.three p{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 1160px;
+    font-size: 30px;
+}
+.three:hover{
+    position: absolute;
+    height: 50vh;
+    width: 30%;
+}
+.amenities {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    top: 800px;
+    background-color:rgb(210, 216, 221);
+}
+.amenities h5{
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    top: 8px;
+}
+.amenities hr{
+    position: relative;
+    top: 8px;
+    width: 60px;
+    left: 760px;
+    color: black;
+    height: 2px;
+    background-color: black;
+}
+.amenities p{
+    position: relative;
+    top: 40px;
+    color: rgb(105, 98, 98);
+    text-align: center;
+    font-size: 20px;  
+}
+.four{
+    height: 300px;
+    width: 250px;
+    background-color:rgb(235, 231, 225);
+    position:relative;
+    top:130px;
+    left: 270px;
+}
+.four img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+.four p{
+    position:relative;
+    top: 245px;
+    color: black;
+    font-size: 30px;
+}
+.five{
+    height: 300px;
+    width: 250px;
+    background-color:rgb(235, 231, 225);
+    position:relative;
+    top:-170px;
+    left: 680px;
+}
+.five img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+.five p{
+    position:relative;
+    top: 40px;
+    color: black;
+    font-size: 30px;
+}
+.six{
+    height: 300px;
+    width: 250px;
+    background-color:rgb(235, 231, 225);
+    position:relative;
+    top:-470px;
+    left: 1080px;
+}
+.six img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+.six p{
+    color: black;
+    font-size: 30px;
+}
+.feed{
+    height: 60vh;
+    width: 100%;
+    background-color:rgb(155, 151, 151);
+    position: relative;
+    top: 650px;
+}
+.feed input{
+    padding: 20px;
+    margin: 10px;
+}
+.feed h1{
+    position: relative;
+    top: -20px;
+}
+.feed form{
+    position: relative;
+    top: 60px;
+}
+.mail{
+    width: 700px;
+    font-size: 18px;
+}
+.name{
+    position: relative;
+left: -15px;
+width: 300px;
+font-size: 18px;
+}
+.num{
+    position: relative;
+    width: 300px;
+    left: 15px;
+    font-size: 18px;
+}
+.back{
+    position: relative;
+    width:700px;
+    font-size: 18px;
+}
+.feed button{
+    position: relative;
+    width: 746px;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+.feed a{
+    color: white;
+    text-decoration: none;
+}
+.foot1 {
+    font-family: "Josefin Sans", sans-serif;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 20px;
+    top: 730px; 
+}
+
+.Quick-links, .navigation, .openning, .c-info {
+    color: white;
+    padding: 20px;
+    width: 250px; 
+    box-sizing: border-box; 
+}
+
+.Quick-links h5, .navigation h5, .openning h5, .c-info h5 {
+    margin-bottom: 10px;
+}
+
+.Quick-links li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.Quick-links li{
+    list-style: none;
+    padding: 10px;
+}
+.Quick-links h5{
+   
+    padding: 10px;
+}
+.navigation li{
+    list-style: none;
+    padding: 10px;
+}
+.navigation h5{
+   
+    padding: 10px;
+}
+.openning li{
+    list-style: none;
+    padding: 10px;
+}
+.openning h5{
+   
+    padding: 10px;
+}
+.c-info li{
+    list-style: none;
+    padding: 10px;
+}
+.c-info h5{
+   
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .foot1 {
+        flex-direction: column; 
+    }
+    
+    .Quick-links, .navigation, .openning, .c-info {
+        width: 100%; 
+    }
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+}
+.about{
+   height: 100vh;
+   width: 100%;
+}
+.about-bg{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/about.jpg);
+    background-size: 100% 50vh;
+}
+.about-bg h1{
+    position: relative;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    top: 150px;
+}
+.about-nav a{
+   position: relative;
+   color: white;
+   bottom: 330px;
+   left: 1200px;
+   padding: 10px;
+   font-size: 20px;
+   text-decoration: none;
+}
+.para p{
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    word-spacing: 10px;
+    line-height: 40px;
+  text-align: justify;
+  color: rgb(116, 111, 111);
+    
+}
+.faci{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    left: 30px;
+    top: 10px;
+
+}
+.faci hr{
+    position: relative;
+    width: 70px;
+    left: 35px;
+    height: 1px;
+    background-color: black;
+}
+.faci-img h1{
+position: relative;
+top: 100px;
+left: 650px;
+font-size: 35px;
+}
+.a img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top:180px ;
+    left: 120px;
+}
+.a h1{
+    position: relative;
+    top: 190px;
+    left: 120px;
+    font-size: 25px;
+}
+.b img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 370px;
+    top: 50px;
+}
+.b h1{
+    position: relative;
+    top: 60px;
+    left: 370px;
+    font-size: 25px;
+}
+.c img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 650px;
+    top: -80px;
+}
+.c h1{
+    position: relative;
+    left: 625px;
+    top: -70px;
+    font-size: 25px;
+}
+.d img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 950px;
+    top: -220px;
+}
+.d h1{
+    position: relative;
+    left: 970px;
+    top: -210px;
+    font-size: 25px;
+}
+.e img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 1250px;
+    top: -350px;
+}
+.e h1{
+    position: relative;
+    font-size: 25px;
+    left: 1265px;
+    top: -340px;
+}
+.foot2{
+    position: relative;
+   top: -1px;
+}
+@media (max-width: 768px) {
+    
+  .header h1{
+    position: relative;
+    top: 300px;
+  } 
+  
+  .logo img{
+    position: relative;
+    top: -900px;
+  }
+  .abt h2{
+    left: -20px;
+  }
+  .abt li{
+    left: -10px;
+    font-size: 15px;
+  }
+  .abt{
+  
+   width: 100%;
+   left: -30px;
+  }
+  .abt button{
+    position: relative;
+    left: -200px;
+  }
+  .ser h3{
+    
+    color:white;
+  left: 30px;
+  }
+  .ser{
+    height: 150vh;
+  }
+  .one img{
+    left: 90px;
+    top:300px ;
+  }
+  .one p{
+    left:130px;
+    top: 520px;
+  }
+  .two img{
+    left: 90px;
+    top: 640px;
+  }
+  .two p{
+    left: 150px;
+    top: 860px;
+  }
+  .three img{
+    left: 90px;
+    top: 980px;
+  }
+  .three p{
+    left: 150px;
+    top: 1200px;
+  }
+  .amenities{
+    height: 170vh;
+    width: 100%;
+  }
+.four{
+    height: 300px;
+    width: 250px;
+    left: 80px;
+}
+  .four img{
+    left: 25px;
+  }
+  .five{
+    height: 300px;
+    width: 250px;
+    left: 80px;
+    top: 200px;
+  }
+  .six{
+    height: 300px;
+    width: 250px;
+    left: 80px;
+    top: 280px;
+  }
+  .name{
+    left: -20px;
+  }
+  .num{
+    left: -20px;
+  }
+  .mail{
+    position: relative;
+    width: 300px;
+    left: -20px;
+  }
+  .back{
+    position: relative;
+    width: 300px;
+    left: -20px;
+  }
+  .feed button{
+    width: 250px;
+    left: -20px;
+  }
+  .foot2{
+top: 1200px;
+  }
+  .faci{
+    height: 150vh;
+    width: 100%;
+  }
+  .faci-img{
+    position: relative;
+    left: -550px;
+    top: 1100px;
+  }
+  .para{
+    left: 60px;
+  }
+  .a img{
+    top: 1250px;
+  }
+  .a h1{
+    top: 1270px;
+  }
+  .b img{
+    top: 1350px;
+    left: 120px;
+  }
+  .b h1{
+    top: 1370px;
+    left:120px;
+  }
+  .c img{
+    top: 1450px;
+    left: 120px;
+  }
+  .c h1{
+    top: 1470px;
+    left:100px;
+  }
+  .d img{
+    top: 1550px;
+    left: 120px;
+  }
+  .d h1{
+    top: 1570px;
+    left:140px;
+  }
+  .e img{
+    top: 1650px;
+    left: 120px;
+  }
+  .e h1{
+    top: 1670px;
+    left:140px;
+  }
+  .abt-img{
+    display: none;
+  }
+  .amenities hr{
+    left: 180px;
+  }
+  .nav a { 
+ color: white;
+ left: 30px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
